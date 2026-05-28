@@ -33,7 +33,7 @@ npm run dev
 Backend:
 python manage.py runserver
 
-
+#Sample_data was provided to make test in backend folder
 # Project Structure
 
 ```text

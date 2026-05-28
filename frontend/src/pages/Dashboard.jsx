@@ -24,7 +24,7 @@ loadRecords()
 const loadStats = async () => {
 
 const res = await axios.get(
-"http://127.0.0.1:8000/api/stats/"
+"https://breathe-esg-assignment-hhce.onrender.com/api/stats/"
 )
 
 setStats(res.data)
@@ -35,7 +35,7 @@ setStats(res.data)
 
 const loadRecords = async (status = null) => {
 
-let url = "http://127.0.0.1:8000/api/records/"
+let url = "https://breathe-esg-assignment-hhce.onrender.com/api/records/"
 
 const params = []
 
@@ -68,7 +68,7 @@ setRecords(res.data)
 const approveRecord = async (id) => {
 
 await axios.post(
-`http://127.0.0.1:8000/api/approve/${id}/`
+`https://breathe-esg-assignment-hhce.onrender.com/api/approve/${id}/`
 )
 
 loadStats()
@@ -95,7 +95,7 @@ category
 )
 
 await axios.post(
-"http://127.0.0.1:8000/api/upload/",
+"https://breathe-esg-assignment-hhce.onrender.com/api/upload/",
 formData
 )
 

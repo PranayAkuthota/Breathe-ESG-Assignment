@@ -1,4 +1,6 @@
 # ESG Sustainability Dashboard
+* {Main: Double click the pointer for approve the record on "approve"
+#ensuring to avoid mistaken of approve reaction part}
 
 A dashboard for reviewing sustainability and ESG records.
 

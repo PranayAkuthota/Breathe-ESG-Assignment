@@ -1,6 +1,6 @@
 from rest_framework.views import APIView
 from rest_framework.response import Response
-
+import traceback
 import pandas as pd
 
 from audit.models import Log

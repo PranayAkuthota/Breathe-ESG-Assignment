@@ -1,0 +1,6 @@
+Source,Usage,Unit
+Office Grid,1200,kWh
+Factory Grid,4500,kWh
+Solar Plant,800000,kWh
+Wind Turbine,1500,kWh
+Backup Generator,600,kWh
